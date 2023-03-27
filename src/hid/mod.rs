@@ -68,6 +68,10 @@ impl HidParam {
                 pid: 0xA2CA,
             }, // Solokey
             HidParam::VidPid {
+                vid: 0x1209,
+                pid: 0xBEEE,
+            }, // Solokey v2
+            HidParam::VidPid {
                 vid: 0x096E,
                 pid: 0x0858,
             }, // ePass FIDO(A4B)
